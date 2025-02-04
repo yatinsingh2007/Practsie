@@ -14,7 +14,6 @@ nav{
     margin: 20px 70px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
     gap: 30.25rem;
 }
 .nav-links{
@@ -22,20 +21,23 @@ nav{
     justify-content: space-between;
     gap: 25px;
 }
+a:hover{
+    cursor: pointer;
+}
 .nav-links a{
     text-decoration: none;
     color: black;
 }
 .button1{
-    border: 1px solid rgb(4, 86, 119);
+    border: 1px solid rgb(8, 136, 186);
     border-radius: 2px;
     padding: 3px 4px
 }
 .button1 a{
-    color: rgb(4, 69, 94);
+    color: rgb(7, 167, 230);
 }
 .button2{
-    background-color: rgb(4, 86, 119);
+    background-color: rgb(6, 173, 239);
     color: white;
     padding: 3px 4px;
     border-radius: 2px;
@@ -45,4 +47,41 @@ nav{
 }
 .heading{
     font-weight: bold;
+}
+main{
+    display: flex;
+    margin: 40px 0px;
+    width: 100%;
+    gap: 200px
+}
+.section-1{
+    margin-left: 10.5rem;
+}
+.section-1 h1{
+    font-weight: bolder;
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+    justify-self: flex-end;
+}
+.section-1 p{
+    line-height: 1.25rem;
+    margin-left: 1.25rem;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    margin-right: 80px;
+    justify-content: center;
+}
+button{
+    cursor: pointer;
+    border: 0;
+}
+#button1{
+    color: rgb(11, 134, 234);
+}
+.image img{
+    width: 300px;
+    height: 300px;
 }
